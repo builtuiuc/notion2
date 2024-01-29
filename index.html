@@ -35,7 +35,7 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 2.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
 }
 
 .slide.current {
@@ -136,6 +136,11 @@ body {
     <div class="slide current"></div>
     <div class="slide"></div>
     <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
+    <div class="slide"></div>
 
   </div>
   <div class="buttons">
@@ -148,7 +153,7 @@ body {
     const nextButton = document.getElementById("next");
     const prevButton = document.getElementById("prev");
     const auto = true;
-    const intervalTime = 5000;
+    const intervalTime = 10000;
     let slideInterval;
 
     const nextSlide = () => {
